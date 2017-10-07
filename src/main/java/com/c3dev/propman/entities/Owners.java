@@ -10,6 +10,7 @@ public class Owners {
     
     @Id
     @GeneratedValue
+    @Column(name = "OWNER_ID")
     private int ownerID;
     
     @Column(name = "OWNER_FIRST_NAME")
